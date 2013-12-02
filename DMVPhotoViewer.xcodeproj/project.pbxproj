@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92630852184A9218002231AE /* DMVInstagramClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 92630851184A9218002231AE /* DMVInstagramClient.m */; };
+		92630855184AA1BE002231AE /* DMVInstagramImages.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92630853184AA1BE002231AE /* DMVInstagramImages.xcdatamodeld */; };
+		92630857184AA530002231AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92630856184AA530002231AE /* CoreData.framework */; };
+		9263085D184AAE72002231AE /* DMVGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263085C184AAE72002231AE /* DMVGridViewController.m */; };
+		92630860184AC4CE002231AE /* InstagramImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263085F184AC4CD002231AE /* InstagramImage.m */; };
+		92630864184B3E03002231AE /* DMVImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92630863184B3E03002231AE /* DMVImageCell.m */; };
+		92630867184B58D0002231AE /* DMVChangedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 92630866184B58D0002231AE /* DMVChangedObject.m */; };
+		9263086A184B645E002231AE /* DMVImageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92630869184B645E002231AE /* DMVImageDataManager.m */; };
+		92630873184B9DAE002231AE /* DMVImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92630872184B9DAE002231AE /* DMVImageViewController.m */; };
+		9287B24F184A641300C2A565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9287B24E184A641300C2A565 /* Foundation.framework */; };
+		9287B251184A641300C2A565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9287B250184A641300C2A565 /* CoreGraphics.framework */; };
+		9287B253184A641300C2A565 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9287B252184A641300C2A565 /* UIKit.framework */; };
+		9287B259184A641300C2A565 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9287B257184A641300C2A565 /* InfoPlist.strings */; };
+		9287B25B184A641300C2A565 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287B25A184A641300C2A565 /* main.m */; };
+		9287B25F184A641300C2A565 /* DMVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287B25E184A641300C2A565 /* DMVAppDelegate.m */; };
+		9287B26A184A641300C2A565 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9287B269184A641300C2A565 /* Images.xcassets */; };
+		9287B271184A641300C2A565 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9287B270184A641300C2A565 /* XCTest.framework */; };
+		9287B272184A641300C2A565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9287B24E184A641300C2A565 /* Foundation.framework */; };
+		9287B273184A641300C2A565 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9287B252184A641300C2A565 /* UIKit.framework */; };
+		9287B27B184A641300C2A565 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9287B279184A641300C2A565 /* InfoPlist.strings */; };
+		9287B27D184A641300C2A565 /* DMVPhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287B27C184A641300C2A565 /* DMVPhotoViewerTests.m */; };
+		E4D45DF2CE5A4376A2A5413D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E6BF12961947F1898FE5C6 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9287B274184A641300C2A565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9287B243184A641300C2A565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9287B24A184A641300C2A565;
+			remoteInfo = DMVPhotoViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39E6BF12961947F1898FE5C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E7996C49FD453A8B6DA95C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		92630850184A9218002231AE /* DMVInstagramClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMVInstagramClient.h; sourceTree = "<group>"; };
+		92630851184A9218002231AE /* DMVInstagramClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMVInstagramClient.m; sourceTree = "<group>"; };
+		92630854184AA1BE002231AE /* DMVInstagramImages.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DMVInstagramImages.xcdatamodel; sourceTree = "<group>"; };
+		92630856184AA530002231AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9263085B184AAE71002231AE /* DMVGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMVGridViewController.h; sourceTree = "<group>"; };
+		9263085C184AAE72002231AE /* DMVGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMVGridViewController.m; sourceTree = "<group>"; };
+		9263085E184AC4CD002231AE /* InstagramImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramImage.h; sourceTree = "<group>"; };
+		9263085F184AC4CD002231AE /* InstagramImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramImage.m; sourceTree = "<group>"; };
+		92630862184B3E03002231AE /* DMVImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMVImageCell.h; sourceTree = "<group>"; };
+		92630863184B3E03002231AE /* DMVImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMVImageCell.m; sourceTree = "<group>"; };
+		92630865184B58D0002231AE /* DMVChangedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMVChangedObject.h; sourceTree = "<group>"; };
+		92630866184B58D0002231AE /* DMVChangedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMVChangedObject.m; sourceTree = "<group>"; };
+		92630868184B645E002231AE /* DMVImageDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMVImageDataManager.h; sourceTree = "<group>"; };
+		92630869184B645E002231AE /* DMVImageDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMVImageDataManager.m; sourceTree = "<group>"; };
+		92630871184B9DAE002231AE /* DMVImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMVImageViewController.h; sourceTree = "<group>"; };
+		92630872184B9DAE002231AE /* DMVImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMVImageViewController.m; sourceTree = "<group>"; };
+		9287B24B184A641300C2A565 /* DMVPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMVPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9287B24E184A641300C2A565 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9287B250184A641300C2A565 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9287B252184A641300C2A565 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9287B256184A641300C2A565 /* DMVPhotoViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMVPhotoViewer-Info.plist"; sourceTree = "<group>"; };
+		9287B258184A641300C2A565 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9287B25A184A641300C2A565 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9287B25C184A641300C2A565 /* DMVPhotoViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMVPhotoViewer-Prefix.pch"; sourceTree = "<group>"; };
+		9287B25D184A641300C2A565 /* DMVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMVAppDelegate.h; sourceTree = "<group>"; };
+		9287B25E184A641300C2A565 /* DMVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMVAppDelegate.m; sourceTree = "<group>"; };
+		9287B269184A641300C2A565 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9287B26F184A641300C2A565 /* DMVPhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMVPhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9287B270184A641300C2A565 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9287B278184A641300C2A565 /* DMVPhotoViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMVPhotoViewerTests-Info.plist"; sourceTree = "<group>"; };
+		9287B27A184A641300C2A565 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9287B27C184A641300C2A565 /* DMVPhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMVPhotoViewerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9287B248184A641300C2A565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92630857184AA530002231AE /* CoreData.framework in Frameworks */,
+				9287B251184A641300C2A565 /* CoreGraphics.framework in Frameworks */,
+				9287B253184A641300C2A565 /* UIKit.framework in Frameworks */,
+				9287B24F184A641300C2A565 /* Foundation.framework in Frameworks */,
+				E4D45DF2CE5A4376A2A5413D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9287B26C184A641300C2A565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9287B271184A641300C2A565 /* XCTest.framework in Frameworks */,
+				9287B273184A641300C2A565 /* UIKit.framework in Frameworks */,
+				9287B272184A641300C2A565 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92630861184AC4DA002231AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92630850184A9218002231AE /* DMVInstagramClient.h */,
+				92630851184A9218002231AE /* DMVInstagramClient.m */,
+				92630868184B645E002231AE /* DMVImageDataManager.h */,
+				92630869184B645E002231AE /* DMVImageDataManager.m */,
+				9263085E184AC4CD002231AE /* InstagramImage.h */,
+				9263085F184AC4CD002231AE /* InstagramImage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9287B242184A641300C2A565 = {
+			isa = PBXGroup;
+			children = (
+				9287B254184A641300C2A565 /* DMVPhotoViewer */,
+				9287B276184A641300C2A565 /* DMVPhotoViewerTests */,
+				9287B24D184A641300C2A565 /* Frameworks */,
+				9287B24C184A641300C2A565 /* Products */,
+				43E7996C49FD453A8B6DA95C /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9287B24C184A641300C2A565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9287B24B184A641300C2A565 /* DMVPhotoViewer.app */,
+				9287B26F184A641300C2A565 /* DMVPhotoViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9287B24D184A641300C2A565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92630856184AA530002231AE /* CoreData.framework */,
+				9287B24E184A641300C2A565 /* Foundation.framework */,
+				9287B250184A641300C2A565 /* CoreGraphics.framework */,
+				9287B252184A641300C2A565 /* UIKit.framework */,
+				9287B270184A641300C2A565 /* XCTest.framework */,
+				39E6BF12961947F1898FE5C6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9287B254184A641300C2A565 /* DMVPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				9287B25D184A641300C2A565 /* DMVAppDelegate.h */,
+				9287B25E184A641300C2A565 /* DMVAppDelegate.m */,
+				9263085B184AAE71002231AE /* DMVGridViewController.h */,
+				9263085C184AAE72002231AE /* DMVGridViewController.m */,
+				92630871184B9DAE002231AE /* DMVImageViewController.h */,
+				92630872184B9DAE002231AE /* DMVImageViewController.m */,
+				92630865184B58D0002231AE /* DMVChangedObject.h */,
+				92630866184B58D0002231AE /* DMVChangedObject.m */,
+				92630862184B3E03002231AE /* DMVImageCell.h */,
+				92630863184B3E03002231AE /* DMVImageCell.m */,
+				92630853184AA1BE002231AE /* DMVInstagramImages.xcdatamodeld */,
+				92630861184AC4DA002231AE /* Model */,
+				9287B269184A641300C2A565 /* Images.xcassets */,
+				9287B255184A641300C2A565 /* Supporting Files */,
+			);
+			path = DMVPhotoViewer;
+			sourceTree = "<group>";
+		};
+		9287B255184A641300C2A565 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9287B256184A641300C2A565 /* DMVPhotoViewer-Info.plist */,
+				9287B257184A641300C2A565 /* InfoPlist.strings */,
+				9287B25A184A641300C2A565 /* main.m */,
+				9287B25C184A641300C2A565 /* DMVPhotoViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9287B276184A641300C2A565 /* DMVPhotoViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9287B27C184A641300C2A565 /* DMVPhotoViewerTests.m */,
+				9287B277184A641300C2A565 /* Supporting Files */,
+			);
+			path = DMVPhotoViewerTests;
+			sourceTree = "<group>";
+		};
+		9287B277184A641300C2A565 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9287B278184A641300C2A565 /* DMVPhotoViewerTests-Info.plist */,
+				9287B279184A641300C2A565 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9287B24A184A641300C2A565 /* DMVPhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9287B280184A641300C2A565 /* Build configuration list for PBXNativeTarget "DMVPhotoViewer" */;
+			buildPhases = (
+				0D5F5B72C3D44D4A8E80C189 /* Check Pods Manifest.lock */,
+				9287B247184A641300C2A565 /* Sources */,
+				9287B248184A641300C2A565 /* Frameworks */,
+				9287B249184A641300C2A565 /* Resources */,
+				9D92F2E9BBF643AE80CCB21F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMVPhotoViewer;
+			productName = DMVPhotoViewer;
+			productReference = 9287B24B184A641300C2A565 /* DMVPhotoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9287B26E184A641300C2A565 /* DMVPhotoViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9287B283184A641300C2A565 /* Build configuration list for PBXNativeTarget "DMVPhotoViewerTests" */;
+			buildPhases = (
+				9287B26B184A641300C2A565 /* Sources */,
+				9287B26C184A641300C2A565 /* Frameworks */,
+				9287B26D184A641300C2A565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9287B275184A641300C2A565 /* PBXTargetDependency */,
+			);
+			name = DMVPhotoViewerTests;
+			productName = DMVPhotoViewerTests;
+			productReference = 9287B26F184A641300C2A565 /* DMVPhotoViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9287B243184A641300C2A565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DMV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dmitry Volkov";
+				TargetAttributes = {
+					9287B26E184A641300C2A565 = {
+						TestTargetID = 9287B24A184A641300C2A565;
+					};
+				};
+			};
+			buildConfigurationList = 9287B246184A641300C2A565 /* Build configuration list for PBXProject "DMVPhotoViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9287B242184A641300C2A565;
+			productRefGroup = 9287B24C184A641300C2A565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9287B24A184A641300C2A565 /* DMVPhotoViewer */,
+				9287B26E184A641300C2A565 /* DMVPhotoViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9287B249184A641300C2A565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9287B26A184A641300C2A565 /* Images.xcassets in Resources */,
+				9287B259184A641300C2A565 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9287B26D184A641300C2A565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9287B27B184A641300C2A565 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D5F5B72C3D44D4A8E80C189 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D92F2E9BBF643AE80CCB21F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9287B247184A641300C2A565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92630860184AC4CE002231AE /* InstagramImage.m in Sources */,
+				92630855184AA1BE002231AE /* DMVInstagramImages.xcdatamodeld in Sources */,
+				9287B25F184A641300C2A565 /* DMVAppDelegate.m in Sources */,
+				9287B25B184A641300C2A565 /* main.m in Sources */,
+				92630852184A9218002231AE /* DMVInstagramClient.m in Sources */,
+				92630867184B58D0002231AE /* DMVChangedObject.m in Sources */,
+				92630873184B9DAE002231AE /* DMVImageViewController.m in Sources */,
+				9263085D184AAE72002231AE /* DMVGridViewController.m in Sources */,
+				9263086A184B645E002231AE /* DMVImageDataManager.m in Sources */,
+				92630864184B3E03002231AE /* DMVImageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9287B26B184A641300C2A565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9287B27D184A641300C2A565 /* DMVPhotoViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9287B275184A641300C2A565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9287B24A184A641300C2A565 /* DMVPhotoViewer */;
+			targetProxy = 9287B274184A641300C2A565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9287B257184A641300C2A565 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9287B258184A641300C2A565 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9287B279184A641300C2A565 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9287B27A184A641300C2A565 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9287B27E184A641300C2A565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9287B27F184A641300C2A565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9287B281184A641300C2A565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E7996C49FD453A8B6DA95C /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMVPhotoViewer/DMVPhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "DMVPhotoViewer/DMVPhotoViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9287B282184A641300C2A565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E7996C49FD453A8B6DA95C /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMVPhotoViewer/DMVPhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "DMVPhotoViewer/DMVPhotoViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9287B284184A641300C2A565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DMVPhotoViewer.app/DMVPhotoViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMVPhotoViewer/DMVPhotoViewer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DMVPhotoViewerTests/DMVPhotoViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9287B285184A641300C2A565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DMVPhotoViewer.app/DMVPhotoViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMVPhotoViewer/DMVPhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "DMVPhotoViewerTests/DMVPhotoViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9287B246184A641300C2A565 /* Build configuration list for PBXProject "DMVPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9287B27E184A641300C2A565 /* Debug */,
+				9287B27F184A641300C2A565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9287B280184A641300C2A565 /* Build configuration list for PBXNativeTarget "DMVPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9287B281184A641300C2A565 /* Debug */,
+				9287B282184A641300C2A565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9287B283184A641300C2A565 /* Build configuration list for PBXNativeTarget "DMVPhotoViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9287B284184A641300C2A565 /* Debug */,
+				9287B285184A641300C2A565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92630853184AA1BE002231AE /* DMVInstagramImages.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92630854184AA1BE002231AE /* DMVInstagramImages.xcdatamodel */,
+			);
+			currentVersion = 92630854184AA1BE002231AE /* DMVInstagramImages.xcdatamodel */;
+			path = DMVInstagramImages.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9287B243184A641300C2A565 /* Project object */;
+}
